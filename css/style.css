@@ -1,0 +1,54 @@
+/* Reset */
+
+:root{
+  --primary: #ffaa5a;
+  --secondary: #ff785a;
+}
+
+body, h1, h1, h3, p, ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+a{
+  text-decoration: none;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+}
+
+nav{
+  max-width: 100%;
+  max-height: max-content;
+  background-color: var(--primary);
+  color: #000;
+}
+
+.menu{
+  display: flex;
+  max-width: 960px;
+  height: 100%;
+  padding: 20px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  min-width: 300px;
+  padding-right: 24px;
+}
+
+.logo-img{
+  max-width: 90px;
+}
+
+.logo-titulo{
+  padding-left: 16px;
+  font-family: Ubuntu Bold, sans-serif;
+}
