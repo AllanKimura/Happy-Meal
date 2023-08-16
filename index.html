@@ -4,30 +4,120 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Happy Meal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <header>
+
     <nav>
       <div class="topo">
         <div class="logo">
           <img class="logo-img" src="img/Logo.svg" alt="Happy Meal Logo" />
           <h1 class="logo-titulo">HAPPY MEAL</h1>
+          <ul class="itens-topo">
+            <a href=""><li class="item-topo favoritos"><img src="img/coracao.png" alt="Shopping Cart Icon"/></li></a>
+            <a href=""><li class="item-topo carrinho"><img src="img/carrinho-de-compras.png" alt="Shopping Cart Icon"/></li></a>
+            <a href=""><li class="item-topo"><img src="img/do-utilizador.png" alt="Login icon"/></li></a>
+          </ul>
         </div>
       </div>
       <div class="menu">
         <ul class="itens-menu">
-          <li class="item-menu">STORE</li>
-          <li class="item-menu">FOOD</li>
-          <li class="item-menu">BLOG</li>
-          <li class="item-menu">ABOUT</li>
-          <li class="item-menu"><input type="text" class="busca" placeholder="" /></li>
-          <li class="item-menu"><img src="img/carrinho-de-compras.png" alt="Shopping Cart Icon"/></li>
-          <li class="item-menu"><img src="img/carrinho-de-compras.png" alt="Login icon"/></li>
+          <a href=""><li class="item-menu store">STORE</li></a>
+          <a href=""><li class="item-menu food">FOOD</li></a>
+          <a href=""><li class="item-menu blog">BLOG</li></a>
+          <a href=""><li class="item-menu about">ABOUT</li></a>
+          <li class=""><input type="text" class="busca" placeholder="" /></li>
         </ul>
       </div>
     </nav>
   </header>
+
+  <main class="join">
+    <h1>JOIN OUR<br>
+    COMMUNITY!</h1>
+  </main>
+
+  <div class="vantagens">
+    <img class="vantagens-item" src="img/Truck.png" alt="Fast Delivery" />
+    <img class="vantagens-item" src="img/Lock.png" alt="One hundred percent security" />
+    <img class="vantagens-item" src="img/Heart.png" alt="Kids love our products!" />
+  </div>
   
+  <section class="loja">
+    <h2 class="titulo-geral">
+      STORE
+    </h2>
+
+    <h3 class="venda-titulo">
+      SALE
+    </h2>
+    <div class="produtos">
+      <div class="produto-item">
+        <img class="produto-imagem" src="img/Bibs.png" alt="Product image" />
+        <p class="produto-desc">Silicone Baby Bibs</p>
+        <label class="produto-preco">$9.99</label>
+        <a href="" class="produto-btn">BUY</a>
+      </div>
+      <div class="produto-item">
+        <img class="produto-imagem" src="img/Bodysuits.png" alt="Product image" />
+        <p class="produto-desc">Baby Bodysuits</p>
+        <label class="produto-preco">$14.99</label>
+        <a href="" class="produto-btn">BUY</a>
+      </div>
+      <div class="produto-item">
+        <img class="produto-imagem" src="img/High chair.png" alt="Product image" />
+        <p class="produto-desc">Baby High Chair</p>
+        <label class="produto-preco">$99.99</label>
+        <a href="" class="produto-btn">BUY</a>
+      </div>
+    </div>
+  </section>
+  
+  <section class="categorias">
+    <h3 class="categorias-titulo">CATEGORIES</h3>
+    <div class="categorias-container">
+      <div class="categoria-item">
+        <label class="categoria-desc">BABY</label>
+        <img class="categoria-img space" src="img/Diaper.png" alt="Diaper Icon" />
+      </div>
+      <div class="categoria-item">
+        <label class="categoria-desc">TODDLER</label>
+        <img class="categoria-img" src="img/Toy.png" alt="Toy Icon" />
+      </div>
+      <div class="categoria-item">
+        <label class="categoria-desc">CHILD</label>
+        <img class="categoria-img space" src="img/Blocks.png" alt="Blocks Icon" />
+      </div>
+    </div>
+  </section>
+
+  <section class="comida">
+    <h2 class="titulo-geral">FOOD</h2>
+    <div class="comida-container">
+      <div class="comida-item">
+        <img class="comida-img" src="img/Bottle of milk.png" alt="Diaper Icon" />
+        <p class="comida-desc">FORMULA</p>
+      </div>
+      <div class="comida-item">
+        <img class="comida-img" src="img/Broccoli.png" alt="Toy Icon" />
+        <p class="comida-desc">SNACKS</p>
+      </div>
+      <div class="comida-item">
+        <img class="comida-img" src="img/Baby food.png" alt="Blocks Icon" />
+        <p class="comida-desc">BABY FOOD</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="blog">
+    <h2 class="titulo-geral">BLOG</h2>
+    <div class="blog-container">
+      
+    </div>
+  </section>
 </body>
 </html>
